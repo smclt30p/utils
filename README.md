@@ -1,3 +1,9 @@
-Just my personal collection of utils for Arch Linux with i3wm.
+# genjavadocall.sh
 
-This is for usage ona Thinkpad T61, you may need to modify the values in the /monitor scripts.
+Generate javadoc for all .java files inside a package. This
+was meant to be ran inside the src folder. So the hierarchy goes
+like this:
+
+src/ <-- run genjavadocall.sh here
+docs/ <-- the javadoc will be placed here, create the dir beforehand
+
